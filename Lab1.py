@@ -1,9 +1,7 @@
 import numpy as np
 from sklearn. preprocessing import normalize
-#create matrix
 x = np.arange (0, 100, 4). reshape (5,5)
 
-#view matrix
 print(x)
 print("")
 x_normed = normalize(x, axis= 1 , norm='l1')
